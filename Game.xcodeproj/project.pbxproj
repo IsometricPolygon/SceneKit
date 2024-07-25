@@ -12,9 +12,6 @@
 		8DB61BE22C5089FA00415F99 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB61BE12C5089FA00415F99 /* art.scnassets */; };
 		8DB61BE42C5089FB00415F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB61BE32C5089FB00415F99 /* Assets.xcassets */; };
 		8DB61BE72C5089FB00415F99 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8DB61BE62C5089FB00415F99 /* Base */; };
-		8DB61BF22C5089FB00415F99 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB61BF12C5089FB00415F99 /* GameTests.swift */; };
-		8DB61BFC2C5089FB00415F99 /* GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB61BFB2C5089FB00415F99 /* GameUITests.swift */; };
-		8DB61BFE2C5089FB00415F99 /* GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB61BFD2C5089FB00415F99 /* GameUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +40,7 @@
 		8DB61BE62C5089FB00415F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DB61BE82C5089FB00415F99 /* Game.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Game.entitlements; sourceTree = "<group>"; };
 		8DB61BED2C5089FB00415F99 /* GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DB61BF12C5089FB00415F99 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		8DB61BF72C5089FB00415F99 /* GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DB61BFB2C5089FB00415F99 /* GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUITests.swift; sourceTree = "<group>"; };
-		8DB61BFD2C5089FB00415F99 /* GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				8DB61BDC2C5089FA00415F99 /* Game */,
-				8DB61BF02C5089FB00415F99 /* GameTests */,
-				8DB61BFA2C5089FB00415F99 /* GameUITests */,
 				8DB61BDB2C5089FA00415F99 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,23 +97,6 @@
 				8DB61BE82C5089FB00415F99 /* Game.entitlements */,
 			);
 			path = Game;
-			sourceTree = "<group>";
-		};
-		8DB61BF02C5089FB00415F99 /* GameTests */ = {
-			isa = PBXGroup;
-			children = (
-				8DB61BF12C5089FB00415F99 /* GameTests.swift */,
-			);
-			path = GameTests;
-			sourceTree = "<group>";
-		};
-		8DB61BFA2C5089FB00415F99 /* GameUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8DB61BFB2C5089FB00415F99 /* GameUITests.swift */,
-				8DB61BFD2C5089FB00415F99 /* GameUITestsLaunchTests.swift */,
-			);
-			path = GameUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB61BF22C5089FB00415F99 /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB61BFE2C5089FB00415F99 /* GameUITestsLaunchTests.swift in Sources */,
-				8DB61BFC2C5089FB00415F99 /* GameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
